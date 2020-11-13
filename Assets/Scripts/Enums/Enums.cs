@@ -7,11 +7,20 @@ namespace Enums
     public enum CardType
     {
         None = 0,
-        TypeElem1 = 1,
-        TypeElem2,
-        TypeElem3,
-        TypeElem4,
-        TypeElem5
+        Fuego = 1,
+        Bosque,
+        Tierra,
+        Electricidad,
+        Agua
+    }
+
+    public enum GameState
+    {
+        None = 0,
+        Start = 1,
+        Draw,
+        MyTurn,
+        EnemyTurn
     }
 
 }

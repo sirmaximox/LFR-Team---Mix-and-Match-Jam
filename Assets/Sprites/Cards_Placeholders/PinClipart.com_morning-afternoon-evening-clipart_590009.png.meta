@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: 1503c676d111c7a4a993c637e20a9670
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 279183887368499104
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_0
+  - first:
+      213: -5033781233862279350
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_1
+  - first:
+      213: 7865475363400473328
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_2
+  - first:
+      213: 2364427703431943097
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_3
+  - first:
+      213: 7715829046297347821
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_4
+  - first:
+      213: -7572245900288973417
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_5
+  - first:
+      213: -7402716984220615304
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_6
+  - first:
+      213: -831964032803555352
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_7
+  - first:
+      213: 561643783623213418
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_8
+  - first:
+      213: 9043760325697537736
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_9
+  - first:
+      213: 2665157556810192376
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_10
+  - first:
+      213: 1512877406458588938
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_11
+  - first:
+      213: 2585693980256320447
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_12
+  - first:
+      213: 4064687087178259310
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_13
+  - first:
+      213: 1218157014174046044
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_14
+  - first:
+      213: 2450204727650666267
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_15
+  - first:
+      213: 4342533297249343223
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_16
+  - first:
+      213: 697847708519332743
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_17
+  - first:
+      213: -5752258290624348852
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_18
+  - first:
+      213: -357819291950164832
+    second: PinClipart.com_morning-afternoon-evening-clipart_590009_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PinClipart.com_morning-afternoon-evening-clipart_590009_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 315
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afac91344cdfd300800000000000000
+      internalID: 279183887368499104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinClipart.com_morning-afternoon-evening-clipart_590009_1
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 321
+        width: 315
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f7c9e43aa642ab0800000000000000
+      internalID: -5033781233862279350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinClipart.com_morning-afternoon-evening-clipart_590009_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 314
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa52118b28c72d60800000000000000
+      internalID: 7865475363400473328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinClipart.com_morning-afternoon-evening-clipart_590009_3
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 315
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b35720187220d020800000000000000
+      internalID: 2364427703431943097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

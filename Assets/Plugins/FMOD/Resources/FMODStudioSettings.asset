@@ -15,8 +15,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: Assets/fmod_MixAndGameJam2020/fmod_MixAndGameJam2020.fspro
-  sourceBankPath: Assets\fmod_MixAndGameJam2020\Build
+  sourceProjectPath: fmod_MixAndGameJam2020/fmod_MixAndGameJam2020.fspro
+  sourceBankPath: fmod_MixAndGameJam2020\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0

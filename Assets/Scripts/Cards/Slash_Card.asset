@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: Slash_Card
   m_EditorClassIdentifier: 
   cardName: Slash
-  cardCost: 1
-  cardDamage: 2
+  cardCost: 3
+  cardDamage: 7
   cardElement: 0
-  cardDes: Swing your card cut the enemy! Paper hurts.
+  cardDes: Swing your card and cut the enemy!
+  extraDes: ' Paper hurts.'
   cardSprite: {fileID: 0}
   cardElementSprite: {fileID: 0}
-  cardArt: {fileID: 0}
+  cardArt: {fileID: 21300000, guid: 8c382fa1f4c95b44f9b1beada7dcd93f, type: 3}
   Stars: {fileID: 0}
   spirit: {fileID: 11400000, guid: 80b6fc0a26dbd8e4f82636ae185082bd, type: 2}
   effectId: 1

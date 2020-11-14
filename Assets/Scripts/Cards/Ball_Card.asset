@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: Ball_Card
   m_EditorClassIdentifier: 
   cardName: Ball
-  cardCost: 1
+  cardCost: 2
   cardDamage: 1
   cardElement: 0
-  cardDes: Throw a ball of Paper Destruction! It sticks.
-  cardSprite: {fileID: 0}
-  cardElementSprite: {fileID: 0}
-  cardArt: {fileID: 0}
-  Stars: {fileID: 0}
-  spirit: {fileID: 0}
+  cardDes: Throw a ball of Paper Destruction!
+  extraDes: ' It sticks.'
+  cardSprite: {fileID: 21300000, guid: 834f68a98dd63694eaef7e383ecc344a, type: 3}
+  cardElementSprite: {fileID: 21300000, guid: 834f68a98dd63694eaef7e383ecc344a, type: 3}
+  cardArt: {fileID: 21300000, guid: 992e59088c3c6a44986e077dd46d478e, type: 3}
+  Stars: {fileID: 21300000, guid: 1b1516aed147c3e45aadf7d5d6683d32, type: 3}
+  spirit: {fileID: 11400000, guid: 72e66fe315b9f1340aac7d1afa92be1f, type: 2}
   effectId: 0
   effect: 

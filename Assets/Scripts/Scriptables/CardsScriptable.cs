@@ -14,6 +14,8 @@ public class CardsScriptable : ScriptableObject
 
     [TextArea(1, 5)]
     public string cardDes;
+    [TextArea(1, 5)]
+    public string extraDes;
 
     public Sprite cardSprite;
     public Sprite cardElementSprite;

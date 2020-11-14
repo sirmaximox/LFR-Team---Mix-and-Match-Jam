@@ -8,8 +8,14 @@ public class SpiritScriptable : ScriptableObject
 {
     public string spiritName;
 
+    [TextArea(1, 5)]
+    public string effectDes;
+
     public CardElement spiritElement;
 
-    public SpiritEffectTypes spirtEffect;
+    public SpiritEffectTypes spiritEffect;
+
+    public Sprite elementIcon;
+    public Sprite elementFrame;
 
 }

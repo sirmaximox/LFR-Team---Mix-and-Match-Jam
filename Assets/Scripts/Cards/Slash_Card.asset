@@ -12,15 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a26a7fafac6e2804a80d246871aeba43, type: 3}
   m_Name: Slash_Card
   m_EditorClassIdentifier: 
-  cardName: 
-  cardCost: 0
-  cardDamage: 0
-  cardElement: 0
-  cardDes: 
-  extraDes: 
-  cardSprite: {fileID: 0}
-  cardElementSprite: {fileID: 0}
-  cardArt: {fileID: 0}
-  Stars: {fileID: 0}
+  cardName: Slash
+  cardCost: 3
+  cardDamage: 7
+  cardElement: 1
+  cardDes: Swing your card and cut your enemy!
+  extraDes: ' Paper Hurts'
+  cardArt: {fileID: 21300000, guid: dbf00790fab860740ab3ac89952ca3c6, type: 3}
   effectId: 0
   effect: 

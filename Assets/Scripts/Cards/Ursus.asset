@@ -13,14 +13,11 @@ MonoBehaviour:
   m_Name: Ursus
   m_EditorClassIdentifier: 
   cardName: Ursus
-  cardCost: 2
-  cardDamage: 5
+  cardCost: 5
+  cardDamage: 10
   cardElement: 2
-  cardDes: Oso goes brrr
-  extraDes: 
-  cardSprite: {fileID: 21300000, guid: 3b7dc246ca6749449825c6b252eb4eff, type: 3}
-  cardElementSprite: {fileID: 21300000, guid: 26c72ed8a2a9762459401685d85c3f33, type: 3}
+  cardDes: Oso goes brrr.
+  extraDes: ' Paperly'
   cardArt: {fileID: 21300000, guid: e88b4d4ae45504945b0a3fb1788e00f6, type: 3}
-  Stars: {fileID: 21300000, guid: 0f46c308e19620b4f98a08b2c2753d08, type: 3}
   effectId: 2
   effect: 

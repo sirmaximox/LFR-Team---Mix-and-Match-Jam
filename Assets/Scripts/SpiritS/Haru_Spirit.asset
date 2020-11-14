@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Haru_Spirit
   m_EditorClassIdentifier: 
   spiritName: 
-  effectDes: 
-  spiritElement: 0
+  effectDes: ' Go fast, Draw 1!'
+  spiritElement: 2
   spiritEffect: 0
-  elementIcon: {fileID: 0}
-  elementFrame: {fileID: 0}
+  elementIcon: {fileID: 21300000, guid: 26c72ed8a2a9762459401685d85c3f33, type: 3}
+  elementFrame: {fileID: 21300000, guid: 3b7dc246ca6749449825c6b252eb4eff, type: 3}

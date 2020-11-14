@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Llama_Spirit
   m_EditorClassIdentifier: 
   spiritName: Llama
-  effectDes: llama quequema
+  effectDes: ' Burn everything!'
   spiritElement: 1
   spiritEffect: 1
   elementIcon: {fileID: 21300000, guid: aac4f30bc4f9a904d820ae5ab4b6f561, type: 3}
-  elementFrame: {fileID: 21300000, guid: 3b7dc246ca6749449825c6b252eb4eff, type: 3}
+  elementFrame: {fileID: 21300000, guid: dfe4f78170ab6644d9163038c2a9a594, type: 3}

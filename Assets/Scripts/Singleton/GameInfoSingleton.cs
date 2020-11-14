@@ -60,6 +60,6 @@ public class GameInfoSingleton : MonoBehaviour
             discardPile.Add(cardDrawn);
         }
 
-        return cardDrawn
+        return cardDrawn;
     }
 }

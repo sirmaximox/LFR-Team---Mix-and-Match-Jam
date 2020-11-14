@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -23,11 +24,13 @@ public class UIManager : MonoBehaviour
     }
 
 
-    public GameObject DrawCardUI(Vector3 pos, CardsScriptable card, SpiritScriptable spirit = null)
+    public GameObject DrawCardUI(Vector2 canvasPos, CardsScriptable card, SpiritScriptable spirit = null)
     {
-        GameObject cardUI = Instantiate(cardPrefab, pos, Quaternion.identity, canva.transform);
+
+        GameObject cardUI = Instantiate(cardPrefab, canvasPos, Quaternion.identity, canva.transform);
         cardUI.GetComponent<CardUI>().card = card;
-        cardUI.GetComponent<CardUI>().card.spirit = spirit;
+        cardUI.GetComponent<CardUI>().spirit = spirit;
+        cardUI.GetComponent<RectTransform>().anchoredPosition = canvasPos;
 
         return cardUI;
     }

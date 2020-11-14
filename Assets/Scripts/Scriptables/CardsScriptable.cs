@@ -22,13 +22,8 @@ public class CardsScriptable : ScriptableObject
     public Sprite cardArt;
     public Sprite Stars;
 
-    public SpiritScriptable spirit;
     public CardEffectTypes effectId;
 
     public CardEffectTypes[] effect;
         
-    void SlashEffect()
-    {
-        
-    }
 }

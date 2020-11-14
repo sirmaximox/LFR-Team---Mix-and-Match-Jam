@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class CardUI : MonoBehaviour
 {
     public CardsScriptable card;
+    public SpiritScriptable spirit;
 
     public Text cardName;
     public Text cardDes;
@@ -39,11 +40,11 @@ public class CardUI : MonoBehaviour
             cardCost[i].enabled = true;
         }
 
-        if (card.spirit != null)
+        if (spirit != null)
         {
-            cardElement.sprite = card.spirit.elementIcon;
-            cardFrame.sprite = card.spirit.elementFrame;
-            cardDes.text += card.spirit.effectDes;
+            cardElement.sprite = spirit.elementIcon;
+            cardFrame.sprite = spirit.elementFrame;
+            cardDes.text += spirit.effectDes;
         }
         else
         {

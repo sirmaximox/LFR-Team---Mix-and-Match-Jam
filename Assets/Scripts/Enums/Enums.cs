@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Enums
 {
-    public enum CardType
+    public enum CardElement
     {
         None = 0,
         Fuego = 1,
@@ -21,6 +21,18 @@ namespace Enums
         Draw,
         MyTurn,
         EnemyTurn
+    }
+    public enum CardEffectTypes
+    {
+        None = 0,
+        Slash = 1,
+        Ball
+    }
+    public enum SpiritEffectTypes
+    {
+        None =0,
+        Llama =1,
+        HChicken
     }
 
 }

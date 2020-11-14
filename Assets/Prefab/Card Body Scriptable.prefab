@@ -623,8 +623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bee0fe835ab5404cb69a52173753960, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  card: {fileID: 0}
-  spirit: {fileID: 0}
+  card: {fileID: 11400000, guid: 6b026c0537bacd74f9ab61559397d72e, type: 2}
+  spirit: {fileID: 11400000, guid: 33a83af0d8b53f641967decc1158239a, type: 2}
   cardName: {fileID: 599883625742798772}
   cardDes: {fileID: 599883626801989704}
   cardDamage: {fileID: 599883626854997310}

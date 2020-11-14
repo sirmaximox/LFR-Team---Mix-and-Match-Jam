@@ -17,11 +17,8 @@ public class CardsScriptable : ScriptableObject
     [TextArea(1, 5)]
     public string extraDes;
 
-    public Sprite cardSprite;
-    public Sprite cardElementSprite;
     public Sprite cardArt;
-    public Sprite Stars;
-
+    
     public CardEffectTypes effectId;
 
     public CardEffectTypes[] effect;

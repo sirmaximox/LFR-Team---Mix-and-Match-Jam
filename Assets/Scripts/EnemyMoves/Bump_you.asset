@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bf6bf06d8c68a448afd9a41f7655a6e, type: 3}
-  m_Name: Ursus_Enemy
+  m_Script: {fileID: 11500000, guid: 57541bd74ec8dcd4381331da252cd904, type: 3}
+  m_Name: Bump_you
   m_EditorClassIdentifier: 
-  enemyName: Ursus
-  health: 10
-  ap: 3
-  enemyArt: {fileID: 21300000, guid: e88b4d4ae45504945b0a3fb1788e00f6, type: 3}
+  attackName: Bump
+  description: A fierce bump
+  attack: 2
+  apCost: 0

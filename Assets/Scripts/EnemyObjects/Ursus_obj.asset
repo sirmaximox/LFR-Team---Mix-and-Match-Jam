@@ -18,3 +18,5 @@ MonoBehaviour:
   ap: 5
   enemyArt: {fileID: 21300000, guid: 7103ea783cb92a24e833facf8f48ece6, type: 3}
   monsterElement: 2
+  availableMove:
+  - movesBase: {fileID: 11400000, guid: c1f91a74753054b45885200ce961924f, type: 2}

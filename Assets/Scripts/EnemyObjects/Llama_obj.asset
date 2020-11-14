@@ -18,3 +18,6 @@ MonoBehaviour:
   ap: 3
   enemyArt: {fileID: 21300000, guid: efa82cf7deac6374f9ca3ed244f65fef, type: 3}
   monsterElement: 1
+  availableMove:
+  - movesBase: {fileID: 11400000, guid: c1f91a74753054b45885200ce961924f, type: 2}
+  - movesBase: {fileID: 11400000, guid: d3e69af3f46d8104aa7c6da8766746f2, type: 2}

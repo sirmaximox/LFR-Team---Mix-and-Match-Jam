@@ -9,12 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0a182c39b4d94cb4987278ead3e7fd7d, type: 3}
+  m_Script: {fileID: 11500000, guid: b50a45875d30b56468ce9c05a2ed2743, type: 3}
   m_Name: Haru_Spirit
   m_EditorClassIdentifier: 
-  spiritName: Haru
-  effectDes: ' Go fast and Draw 1.'
-  spiritElement: 2
-  spiritEffect: 2
-  elementIcon: {fileID: 21300000, guid: 3ca621949480809468bb362ea7edff40, type: 3}
-  elementFrame: {fileID: 21300000, guid: 479033026cbc3374e983e807dd64d25b, type: 3}
+  spiritName: 
+  effectDes: 
+  spiritElement: 0
+  spiritEffect: 0
+  elementIcon: {fileID: 0}
+  elementFrame: {fileID: 0}

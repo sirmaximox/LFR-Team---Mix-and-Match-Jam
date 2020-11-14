@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b50a45875d30b56468ce9c05a2ed2743, type: 3}
-  m_Name: Llama_Spirit
+  m_Name: default_Spirit
   m_EditorClassIdentifier: 
-  spiritName: Llama
-  effectDes: llama quequema
-  spiritElement: 1
-  spiritEffect: 1
-  elementIcon: {fileID: 21300000, guid: aac4f30bc4f9a904d820ae5ab4b6f561, type: 3}
-  elementFrame: {fileID: 21300000, guid: 3b7dc246ca6749449825c6b252eb4eff, type: 3}
+  spiritName: 
+  effectDes: 
+  spiritElement: 0
+  spiritEffect: 0
+  elementIcon: {fileID: 21300000, guid: d16d9d02c6870134abb54d2c9b1ddefc, type: 3}
+  elementFrame: {fileID: 21300000, guid: c61dfa04985ab0e4d83d685c3df6c747, type: 3}

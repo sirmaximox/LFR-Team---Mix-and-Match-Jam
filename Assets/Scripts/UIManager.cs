@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class UIManager : MonoBehaviour
 {
     [SerializeField] private GameObject cardPrefab;
-    [SerializeField] private Canvas canva;
+    [SerializeField] private Canvas canvas;
 
     [SerializeField] private CardsScriptable cardExample;
     [SerializeField] private SpiritScriptable spiritExample;
@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DrawCardUI(Vector3.one, cardExample, spiritExample);
+        DrawCardUI(canvas, Vector3.one, cardExample, spiritExample);
     }
 
     // Update is called once per frame
@@ -24,10 +24,11 @@ public class UIManager : MonoBehaviour
     }
 
 
-    public GameObject DrawCardUI(Vector2 canvasPos, CardsScriptable card, SpiritScriptable spirit = null)
+    public GameObject DrawCardUI(Canvas targetCanvas, Vector2 canvasPos, CardsScriptable card, SpiritScriptable spirit = null)
     {
 
-        GameObject cardUI = Instantiate(cardPrefab, canvasPos, Quaternion.identity, canva.transform);
+        this.canvas = targetCanvas;
+        GameObject cardUI = Instantiate(cardPrefab, canvasPos, Quaternion.identity, canvas.transform);
         cardUI.GetComponent<CardUI>().card = card;
         cardUI.GetComponent<CardUI>().spirit = spirit;
         cardUI.GetComponent<RectTransform>().anchoredPosition = canvasPos;

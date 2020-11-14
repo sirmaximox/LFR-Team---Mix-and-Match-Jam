@@ -48,6 +48,8 @@ public class CardUI : MonoBehaviour
         }
         else
         {
+            cardElement.sprite = card.cardElementSprite;
+            cardFrame.sprite = card.cardSprite;
             cardDes.text += card.extraDes;
         }
     }

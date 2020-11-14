@@ -7,10 +7,10 @@ using UnityEngine;
 
 public class MovesScriptable : ScriptableObject
 {
-    [SerializeField] private string attackName;
-    [TextArea] [SerializeField] private string description;
-    [SerializeField] private int attack;
-    [SerializeField] private int apCost;
+    [SerializeField] public string attackName;
+    [TextArea] [SerializeField] public string description;
+    [SerializeField] public int attack;
+    [SerializeField] public int apCost;
 
     public string Name
     {

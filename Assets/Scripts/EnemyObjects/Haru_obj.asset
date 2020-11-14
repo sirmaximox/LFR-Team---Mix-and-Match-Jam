@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bf6bf06d8c68a448afd9a41f7655a6e, type: 3}
   m_Name: Haru_obj
   m_EditorClassIdentifier: 
-  enemyName: Haru
+  enemyName: HARU
   descriptor: Punch like peanutbutter, sting like jelly.
   health: 5
   ap: 2

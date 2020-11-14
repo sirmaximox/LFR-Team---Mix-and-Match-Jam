@@ -6,16 +6,16 @@ using Enums;
 [CreateAssetMenu(fileName = "Enemy", menuName = "Enemy/New Enemy")]
 public class EnemyScriptable : ScriptableObject
 {
-    [SerializeField] private string enemyName;
-    [TextArea] [SerializeField] private string descriptor;
-    [SerializeField] private int health;
-    [SerializeField] private int ap;
+    [SerializeField] public string enemyName;
+    [TextArea] [SerializeField] public string descriptor;
+    [SerializeField] public int health;
+    [SerializeField] public int ap;
 
-    [SerializeField] private Sprite enemyArt;
+    [SerializeField] public Sprite enemyArt;
 
-    [SerializeField] private CardElement monsterElement;
+    [SerializeField] public CardElement monsterElement;
 
-    [SerializeField] private List<AvailableMove> availableMove;
+    [SerializeField] public List<AvailableMove> availableMove;
     
     public string Name
     {

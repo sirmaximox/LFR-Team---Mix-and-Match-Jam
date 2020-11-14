@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b50a45875d30b56468ce9c05a2ed2743, type: 3}
-  m_Name: Haru_Spirit
+  m_Name: Holychicken_Spirit
   m_EditorClassIdentifier: 
-  spiritName: Haru
-  effectDes: ' Go fast, Draw 1!'
-  spiritElement: 2
-  spiritEffect: 0
-  elementIcon: {fileID: 21300000, guid: 26c72ed8a2a9762459401685d85c3f33, type: 3}
-  elementFrame: {fileID: 21300000, guid: 3b7dc246ca6749449825c6b252eb4eff, type: 3}
+  spiritName: 
+  effectDes: 
+  spiritElement: 5
+  spiritEffect: 2
+  elementIcon: {fileID: 21300000, guid: 0d674e84092ed8b4e9d2b4877897bfe5, type: 3}
+  elementFrame: {fileID: 21300000, guid: 1f0f4b9d63bf24945abd9625f60f5e63, type: 3}

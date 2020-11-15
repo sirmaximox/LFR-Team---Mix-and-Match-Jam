@@ -10,17 +10,24 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private CardsScriptable cardExample;
     [SerializeField] private SpiritScriptable spiritExample;
+    
+    [SerializeField] private GameObject enemyPrefab;
+    [SerializeField] private Canvas enemyCanvas;
+   
+
+    [SerializeField] private EnemyScriptable enemy1;
+    [SerializeField] private EnemyScriptable enemy2;
+    [SerializeField] private EnemyScriptable enemy3;
+    [SerializeField] private EnemyScriptable enemyBoss;
+
 
     // Start is called before the first frame update
     void Start()
     {
         DrawCardUI(Vector3.one, cardExample, spiritExample);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        DrawEnemyUI(enemyCanvas, Vector3.one, enemy1);
+        DrawEnemyUI(enemyCanvas, Vector3.one, enemy2);
+        DrawEnemyUI(enemyCanvas, Vector3.one, enemy3);
     }
 
 
@@ -32,5 +39,16 @@ public class UIManager : MonoBehaviour
         cardUI.GetComponent<RectTransform>().anchoredPosition = canvasPos;
 
         return cardUI;
+    }
+    
+    public GameObject DrawEnemyUI(Canvas enemyCanvas1, Vector2 canvasPos, EnemyScriptable monster)
+    {
+
+        GameObject enemyUI = Instantiate(enemyPrefab, canvasPos, Quaternion.identity, enemyCanvas1.transform);
+        enemyUI.GetComponent<EnemyUI>().enemy = monster;
+        enemyUI.GetComponent<EnemyUI>().enemyElement.sprite = monster.enemyIcon;
+        enemyUI.GetComponent<RectTransform>().anchoredPosition = canvasPos;
+
+        return enemyUI;
     }
 }

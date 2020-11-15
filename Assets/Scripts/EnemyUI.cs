@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class EnemyUI : MonoBehaviour
 {
     public EnemyScriptable enemy;
-    public SpiritScriptable spirit;
     public Text enemyName;
     
     
@@ -24,9 +23,11 @@ public class EnemyUI : MonoBehaviour
     void DrawEnemyUI()
     {
         enemyName.text = enemy.enemyName;
-        enemyElement.sprite = spirit.elementIcon;
+        enemyElement.sprite = enemy.enemyIcon;
         enemyArt.sprite = enemy.enemyArt;
-
+        enemyArt.preserveAspect = true;
+        enemyArt.SetNativeSize();
+        
         for ( int i = 0; i < enemy.ap; i++)
         {
             

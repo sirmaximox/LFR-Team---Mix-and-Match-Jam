@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bf6bf06d8c68a448afd9a41f7655a6e, type: 3}
-  m_Name: Ursus_obj
+  m_Name: Llama_Enemy
   m_EditorClassIdentifier: 
-  enemyName: Ursus
-  descriptor: The big bad bear
-  health: 30
-  ap: 5
-  enemyArt: {fileID: 21300000, guid: 7103ea783cb92a24e833facf8f48ece6, type: 3}
-  monsterElement: 2
+  enemyName: LLAMA
+  descriptor: Llamallama quemaquema
+  health: 12
+  ap: 3
+  enemyArt: {fileID: 21300000, guid: efa82cf7deac6374f9ca3ed244f65fef, type: 3}
+  enemyIcon: {fileID: 21300000, guid: 54a58bbea0ab5314ab1cba353e9d2dae, type: 3}
+  monsterElement: 1
   availableMove:
   - movesBase: {fileID: 11400000, guid: c1f91a74753054b45885200ce961924f, type: 2}
+  - movesBase: {fileID: 11400000, guid: d3e69af3f46d8104aa7c6da8766746f2, type: 2}

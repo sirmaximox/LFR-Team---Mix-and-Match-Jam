@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2bf6bf06d8c68a448afd9a41f7655a6e, type: 3}
-  m_Name: Holycock_obj
+  m_Name: Default_Enemy
   m_EditorClassIdentifier: 
-  enemyName: SAINT KFC
-  descriptor: The holiest.
-  health: 22
-  ap: 6
-  enemyArt: {fileID: 21300000, guid: 207f6c27fd6794645940c7f8dc1fc412, type: 3}
-  monsterElement: 5
+  enemyName: 
+  descriptor: 
+  health: 0
+  ap: 0
+  enemyArt: {fileID: 0}
+  enemyIcon: {fileID: 0}
+  monsterElement: 0
   availableMove: []

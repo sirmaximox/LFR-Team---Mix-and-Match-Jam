@@ -6,5 +6,5 @@ using UnityEngine.UI;
 public class BattleHUDManager : MonoBehaviour
 {
     [SerializeField] private Text cardsInDeck;
-    [SerializeField] private Text 
+    [SerializeField] private PlayerHPBar hpBar;
 }

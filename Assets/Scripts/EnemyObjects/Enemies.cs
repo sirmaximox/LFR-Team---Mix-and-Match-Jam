@@ -4,32 +4,18 @@ using UnityEngine;
 
 public class Enemies
 {
-    public EnemyScriptable Base;
-    public int AP;
-    public List<Moves>Move { get; set; }
+    private EnemyScriptable _base;
+    private int AP;
 
-    public int HealthPoints { get; set; }
     public Enemies(EnemyScriptable pBase, int pAp)
     {
-        Base = pBase;
+        _base = pBase;
         AP = pAp;
-        HealthPoints = maxHealth;
-        Move = new List<Moves>();
-        /*foreach (var move in Base.availableMove)
-        {
-            
-        }*/
     }
-
 
     public int apAvailable
     {
-        get { return Base.Ap; }
-    }
-
-    public int maxHealth
-    {
-        get { return Base.maxHealth; }
+        get { return _base.Ap; }
     }
     
 }

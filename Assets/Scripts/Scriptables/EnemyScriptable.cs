@@ -8,7 +8,7 @@ public class EnemyScriptable : ScriptableObject
 {
     [SerializeField] public string enemyName;
     [TextArea] [SerializeField] public string descriptor;
-    [SerializeField] public int maxHealth;
+    [SerializeField] public int health;
     [SerializeField] public int ap;
 
     [SerializeField] public Sprite enemyArt;
@@ -30,7 +30,7 @@ public class EnemyScriptable : ScriptableObject
     
     public int Health 
     {
-        get { return maxHealth; }
+        get { return health; }
     }
     public int Ap
     {

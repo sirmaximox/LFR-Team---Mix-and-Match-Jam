@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class CardDatabase: MonoBehaviour
 {
     public List<CardsScriptable> cardList;

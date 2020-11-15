@@ -2267,6 +2267,128 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1652248582}
   m_CullTransparentMesh: 0
+--- !u!1 &1722171058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1722171061}
+  - component: {fileID: 1722171060}
+  - component: {fileID: 1722171059}
+  - component: {fileID: 1722171062}
+  m_Layer: 0
+  m_Name: Deck Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1722171059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722171058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 215f2330ea31bb34a875e57c02088aee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cardList:
+  - {fileID: 11400000, guid: 6b026c0537bacd74f9ab61559397d72e, type: 2}
+  - {fileID: 11400000, guid: e9a286537a581154999295b02d1496e0, type: 2}
+  - {fileID: 11400000, guid: 6a0619188766f4543ab116cfc1538e5d, type: 2}
+  - {fileID: 11400000, guid: af987349fab7308498c29dd6204549f9, type: 2}
+  - {fileID: 11400000, guid: b68f17f816b037b4cbcd116a8c8ae0e8, type: 2}
+  spiritList:
+  - {fileID: 11400000, guid: 33a83af0d8b53f641967decc1158239a, type: 2}
+  - {fileID: 11400000, guid: ad427f54711e66f42830d27a74fec54d, type: 2}
+  - {fileID: 11400000, guid: 1a1501fd799f45b4788b4dbc591ad1cd, type: 2}
+  enemyList:
+  - {fileID: 11400000, guid: 4ab1fd0f524729f44beff55d0d60180c, type: 2}
+  - {fileID: 11400000, guid: b6db6ac0400f7194f856e33d5f2cf371, type: 2}
+  - {fileID: 11400000, guid: 56a53ff3a005f994fa3045533949f9e6, type: 2}
+  - {fileID: 11400000, guid: d741228adbf854a4abf9a702cd267582, type: 2}
+  - {fileID: 11400000, guid: 19ccfab6cb2a16345a59b8f2d5ec8980, type: 2}
+  - {fileID: 11400000, guid: e6325325e4141bd468bbc3c9d56fac89, type: 2}
+--- !u!114 &1722171060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722171058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d6f938b4222ae41a9aa38ee5ee1642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deck:
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!4 &1722171061
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722171058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 939.29205, y: 541.49756, z: -401.4027}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1722171062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722171058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2cce32fcb9e85f43838de4543bdef38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_cardDatabaseDictionary:
+    m_keys:
+    - Ball
+    - Heal
+    - Slash
+    m_values:
+    - {fileID: 11400000, guid: 6b026c0537bacd74f9ab61559397d72e, type: 2}
+    - {fileID: 11400000, guid: e9a286537a581154999295b02d1496e0, type: 2}
+    - {fileID: 11400000, guid: af987349fab7308498c29dd6204549f9, type: 2}
+  spiritDictionary:
+    m_keys:
+    - Haru
+    - HolyChicken
+    - Llama
+    m_values:
+    - {fileID: 11400000, guid: 33a83af0d8b53f641967decc1158239a, type: 2}
+    - {fileID: 11400000, guid: ad427f54711e66f42830d27a74fec54d, type: 2}
+    - {fileID: 11400000, guid: 1a1501fd799f45b4788b4dbc591ad1cd, type: 2}
+  enemyDictionary:
+    m_keys:
+    - Feralynx
+    - Haru
+    - Holycock
+    - Llama
+    - Torosus
+    - Ursus
+    m_values:
+    - {fileID: 11400000, guid: 4ab1fd0f524729f44beff55d0d60180c, type: 2}
+    - {fileID: 11400000, guid: b6db6ac0400f7194f856e33d5f2cf371, type: 2}
+    - {fileID: 11400000, guid: 56a53ff3a005f994fa3045533949f9e6, type: 2}
+    - {fileID: 11400000, guid: d741228adbf854a4abf9a702cd267582, type: 2}
+    - {fileID: 11400000, guid: 19ccfab6cb2a16345a59b8f2d5ec8980, type: 2}
+    - {fileID: 11400000, guid: e6325325e4141bd468bbc3c9d56fac89, type: 2}
 --- !u!1 &1786103358
 GameObject:
   m_ObjectHideFlags: 0

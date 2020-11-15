@@ -498,6 +498,7 @@ GameObject:
   - component: {fileID: 8862405929145876657}
   - component: {fileID: 8862405929145876656}
   - component: {fileID: 8862405929145876658}
+  - component: {fileID: 735794647179672999}
   m_Layer: 5
   m_Name: Enemy Body Scriptable
   m_TagString: Untagged
@@ -555,7 +556,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b2e56519f000f27459662be5cd5cc9ac, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -577,7 +578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef708d2829a54ef44981d89c1398ad33, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 11400000, guid: 6b0bee85c6e79794f8a56b9581f34810, type: 2}
+  enemy: {fileID: 11400000, guid: 56a53ff3a005f994fa3045533949f9e6, type: 2}
   enemyName: {fileID: 8862405929563875222}
   enemyElement: {fileID: 2466961650059298990}
   enemyArt: {fileID: 8862405929145876656}
@@ -588,6 +589,25 @@ MonoBehaviour:
   - {fileID: 8862405927856501377}
   - {fileID: 8862405927853815899}
   - {fileID: 8862405928001155553}
+--- !u!95 &735794647179672999
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8862405929145876662}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2bc50b71b4b8f6348973a299128b71c7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8862405929325660008
 GameObject:
   m_ObjectHideFlags: 0

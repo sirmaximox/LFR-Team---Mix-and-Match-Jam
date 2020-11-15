@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackName: Fire Spit
   description: 
+  attackElement: 1
   attack: 5
   apCost: 3

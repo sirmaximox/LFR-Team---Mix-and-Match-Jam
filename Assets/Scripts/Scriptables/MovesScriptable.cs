@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Enums;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Move", menuName = "Enemy/New Move")]
@@ -9,6 +10,8 @@ public class MovesScriptable : ScriptableObject
 {
     [SerializeField] public string attackName;
     [TextArea] [SerializeField] public string description;
+
+    [SerializeField] public CardElement attackElement;
     [SerializeField] public int attack;
     [SerializeField] public int apCost;
 
@@ -29,6 +32,11 @@ public class MovesScriptable : ScriptableObject
     public int ApCost
     {
         get { return apCost; }
+    }
+
+    public CardElement AttackElement
+    {
+        get { return attackElement; }
     }
 
 }

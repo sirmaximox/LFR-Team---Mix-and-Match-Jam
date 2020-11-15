@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bf6bf06d8c68a448afd9a41f7655a6e, type: 3}
   m_Name: Holycock_Enemy
   m_EditorClassIdentifier: 
-  enemyName: SAINT KFC
+  enemyName: SAINT HEN
   descriptor: The holiest.
   health: 22
   ap: 6

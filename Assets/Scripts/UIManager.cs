@@ -25,9 +25,9 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         //DrawCardUI(Vector3.one, cardExample, spiritExample);
-        DrawEnemyUI(enemyCanvas, new Vector2(725,130), enemy1);
-        DrawEnemyUI(enemyCanvas, new Vector2(350,130), enemy2);
-        DrawEnemyUI(enemyCanvas, new Vector2(-30,130), enemy3);
+        DrawEnemyUI(enemyCanvas, new Vector2(700,130), enemy1);
+        DrawEnemyUI(enemyCanvas, new Vector2(260,130), enemy2);
+        DrawEnemyUI(enemyCanvas, new Vector2(-200,130), enemy3);
     }
 
 

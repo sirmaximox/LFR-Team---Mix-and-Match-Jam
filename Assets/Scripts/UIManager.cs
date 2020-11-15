@@ -24,7 +24,7 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DrawCardUI(Vector3.one, cardExample, spiritExample);
+        //DrawCardUI(Vector3.one, cardExample, spiritExample);
         DrawEnemyUI(enemyCanvas, new Vector2(725,130), enemy1);
         DrawEnemyUI(enemyCanvas, new Vector2(350,130), enemy2);
         DrawEnemyUI(enemyCanvas, new Vector2(-30,130), enemy3);

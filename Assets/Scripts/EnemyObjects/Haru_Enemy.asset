@@ -16,7 +16,7 @@ MonoBehaviour:
   descriptor: Punch like peanutbutter, sting like jelly.
   health: 5
   ap: 2
-  enemyArt: {fileID: 21300000, guid: 9b9853a2b6a5a9340879f5e94d1d982e, type: 3}
+  enemyArt: {fileID: 21300000, guid: fdcfad08e8b0acf4bba30660fe24be9e, type: 3}
   enemyIcon: {fileID: 21300000, guid: 4b6ffdbdadfd6d44f8355a36faa01278, type: 3}
   monsterElement: 4
   availableMove:

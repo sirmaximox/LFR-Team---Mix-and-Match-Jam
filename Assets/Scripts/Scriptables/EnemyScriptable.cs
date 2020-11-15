@@ -12,6 +12,7 @@ public class EnemyScriptable : ScriptableObject
     [SerializeField] public int ap;
 
     [SerializeField] public Sprite enemyArt;
+    [SerializeField] public Sprite enemyIcon;
 
     [SerializeField] public CardElement monsterElement;
 

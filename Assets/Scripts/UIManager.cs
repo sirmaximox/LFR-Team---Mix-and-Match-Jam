@@ -14,7 +14,7 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DrawCardUI(canvas, Vector3.one, cardExample, spiritExample);
+        DrawCardUI(Vector3.one, cardExample, spiritExample);
     }
 
     // Update is called once per frame
@@ -24,10 +24,8 @@ public class UIManager : MonoBehaviour
     }
 
 
-    public GameObject DrawCardUI(Canvas targetCanvas, Vector2 canvasPos, CardsScriptable card, SpiritScriptable spirit = null)
+    public GameObject DrawCardUI(Vector2 canvasPos, CardsScriptable card, SpiritScriptable spirit = null)
     {
-
-        this.canvas = targetCanvas;
         GameObject cardUI = Instantiate(cardPrefab, canvasPos, Quaternion.identity, canvas.transform);
         cardUI.GetComponent<CardUI>().card = card;
         cardUI.GetComponent<CardUI>().spirit = spirit;

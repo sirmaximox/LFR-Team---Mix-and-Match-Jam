@@ -2328,8 +2328,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deck:
-  - {fileID: 0}
-  - {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
+  - card: {fileID: 0}
+    spirit: {fileID: 0}
 --- !u!4 &1722171061
 Transform:
   m_ObjectHideFlags: 0

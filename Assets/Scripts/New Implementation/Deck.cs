@@ -9,5 +9,8 @@ public class Deck : MonoBehaviour
     private List<FullCard> deck = new List<FullCard>();
 
 
-    
+    private void Start()
+    {
+        deck[1] = new FullCard();
+    }
 }
